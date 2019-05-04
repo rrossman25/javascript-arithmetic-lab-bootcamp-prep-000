@@ -14,12 +14,12 @@ function divide(num1, num2){
   return num1 / num2;
 }
 
-function inc(n){
-  return n++;
+function inc(n, n2){
+  return n += n2;
 }
 
-function dec(n){
-  return n--;
+function dec(n, n2){
+  return n += n2;
 }
 
 function makeInt(n){
